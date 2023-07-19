@@ -1,0 +1,31 @@
+	<div class=post>
+	  <div class=post-media>
+	    <div class=post-info>
+	      <div class=info-item>
+	     	 <img src="image/Lee-suk.jpg">
+	    	  <pre>Lee-suk  <span id=span1>.</span><span id=span2> 20m</span><br><span id=span3>Seoul</span></pre>
+	      </div>
+	      <img id=more src="image/more.png">
+	    </div>
+	    <img id=post-image src="image/Lee-suk-post.jpg">
+	    <div class=post-cmd>
+		<div class=cmd1>
+		  <img src="image/likes.png">
+		  <img src="image/comment.png">
+		  <img src="image/share.png">
+		</div>
+		<div class=cmd2>
+		  <img src="image/bookmark.png">
+		</div>
+	    </div>
+	    <div class=content>
+	      <p><span id=sub-cnt1>1,500 likes</span><br>
+	      <span id=sub-cnt2>Lee-Suk</span> New to instagram, feed me some likes and comment<br>
+	      <span id=sub-cnt3>more</span><br><span id=sub-cnt4>View all 30 comments</span></p>
+	    </div>
+	    <div class=cmt-sec>
+		<input id=comment minlength="1" maxlength=300" placeholder="Add a comment...">
+		<img src="image/emoji.png">
+	    </div>
+	  </div>
+	</div>

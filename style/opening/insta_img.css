@@ -1,0 +1,40 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50%;
+	width: 100%;
+	row-gap: 0px;
+}
+
+#logo {
+	width: 90px;
+	height: 90px;
+	margin-bottom: -15px;
+}
+
+p {
+	font-family: sans-serif, Arial;
+	color: #999;
+	font-style: bold;
+	font-size: 15px;
+}
+
+#logo2{
+	width: 98px;
+	height: 32px;
+	margin-top: -15px;
+	margin-bottom: 30px;
+}

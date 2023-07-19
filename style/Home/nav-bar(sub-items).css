@@ -1,0 +1,25 @@
+.nav-bar .sub-nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 59%;
+	margin-bottom: 48%;
+}
+
+.nav-bar #insta-text {
+	width: 112px;
+	height: 75px;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.nav-bar .more {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 6.5%;
+	text-decoration: none;
+	margin-bottom: 9.5%;
+}

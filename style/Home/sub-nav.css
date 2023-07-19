@@ -1,0 +1,42 @@
+.nav-bar .sub-nav a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 11%;
+	text-decoration: none;
+}
+
+.nav-bar .sub-nav div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 15px;
+	border-radius: 5px;
+	width: 90%;
+	height: 100%;
+}
+
+.nav-bar .sub-nav div:hover {
+	background: #181818;
+}
+
+.nav-bar .sub-nav img {
+	width: 29px;
+	height: 29px;
+	margin-left: 5%;
+}
+
+.nav-bar .sub-nav p, .more p {
+	font-size: 15px;
+	font-style: normal;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+#home {
+	font-size: 17px;
+	font-weight: 600;
+	font-style: bold;
+}

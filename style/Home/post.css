@@ -1,0 +1,171 @@
+.post {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 28px;
+	margin-left: 100px;
+	row-gap: 20px;
+}
+
+.post .post-info {
+	width: 469px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.post .post-info #more {
+	width: 23px;
+	height: 23px;
+}
+
+.post .post-info .info-item {
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	column-gap: 13px;
+	align-items: center;
+}
+
+.post .post-info .info-item img {
+	width: 37px;
+	height: 37px;
+	border-radius: 40px;
+}
+
+.post .post-info .info-item pre {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	font-family: Roboto;
+	margin-top: 7px;
+}
+
+.post .post-info .info-item pre:hover {
+	color: #696969;
+}
+
+.post .post-info .info-item #span1 {
+	font-size: 20px;
+	font-weight: 900;
+	color: #696969;
+	font-family: Roboto;
+}
+
+.post .post-info .info-item #span2 {
+	font-size: 13.9px;
+	font-weight: 300;
+	color: #696969;
+	font-family: sans-serif;
+}
+
+.post .post-info .info-item #span3 {
+	font-size: 12.3px;
+	font-weight: 300;
+	color: #fff;
+	font-family: Roboto;
+}
+
+/* post-media css */
+
+.post .post-media {
+	border-bottom: 1px solid #696969;
+	padding-bottom: 15px;
+}
+
+.post .post-media #post-image {
+	width: 469px;
+	border: 1px solid #696969;
+	border-radius: 3px;
+	max-height: 700px;
+	margin: 0px;
+}
+
+.post .post-cmd {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 469px;
+	margin-top: 5px;
+	margin-bottom: 6px;
+}
+
+.post .post-media .post-cmd img {
+	width: 30px;
+	height: 30px;
+}
+
+.post .post-media .post-cmd .cmd1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 13px;
+}
+
+.post .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 469px;
+}
+
+.post .content p {
+	color: #fff;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+	margin: 0px;
+	
+}
+
+.post .post-media .content #sub-cnt1 {
+	font-size: 13.5px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.post .post-media .content #sub-cnt2 {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.post .post-media .content #sub-cnt3 {
+	color: #696969;
+}
+
+.post .post-media .content #sub-cnt4 {
+	color: #696969;
+	line-height: 35px;
+}
+
+.post .post-media .cmt-sec {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.post .post-media .cmt-sec #comment {
+	height: 20px;
+	width: 400px;
+	background-color: transparent;
+	color: #fff;
+	font-family: Roboto;
+	border: none;
+}
+
+.post .post-media .cmt-sec #comment:focus {
+	outline: none;
+}
+
+.post .post-media .cmt-sec img {
+	width: 13px;
+	height: 13px;
+}

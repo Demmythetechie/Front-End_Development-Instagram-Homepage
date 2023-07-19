@@ -1,0 +1,21 @@
+.nav-bar .more div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 15px;
+	border-radius: 5px;
+	width: 90%;
+	height: 100%;
+}
+
+.nav-bar .more img {
+	width: 25px;
+	height: 29px;
+	margin-left: 5%;
+}
+
+.nav-bar .more div:hover {
+	background: #181818;
+}
+
